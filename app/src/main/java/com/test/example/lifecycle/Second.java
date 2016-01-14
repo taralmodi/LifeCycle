@@ -20,6 +20,7 @@ public class Second extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -60,6 +61,9 @@ public class Second extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
+        /* This is a comment
+
+         */
         Log.d(FT_LT, "onResume  -  2");
     }
 
